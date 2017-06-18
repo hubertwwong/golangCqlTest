@@ -1,11 +1,11 @@
 package main
 
 import (
-  "github.com/hubertwwong/golangCqlTest/api/core"
+  "github.com/hubertwwong/golangCqlTest/api"
 
 )
 
 func main() {
   // api
-  core.Run()
+  api.Run()
 }
